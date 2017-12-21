@@ -1,0 +1,13 @@
+.wordcell-playboard{
+  display: inline-block;
+  margin: 2em;
+  width: auto;
+}
+
+.cell-playboard{
+  display: inline-block;
+  cursor: pointer;
+  background: url('../src/icon/Blank.png') no-repeat center center;
+  background-size: 100% 100%;
+  margin: 0.1em;
+}

@@ -1,0 +1,25 @@
+.board{
+  width: auto;
+  height: auto;
+}
+
+.row-board{
+
+}
+
+.cell-board{
+  display: inline-block;
+  cursor: pointer;
+  background: no-repeat center center;
+  background-size: 100% 100%;
+  margin: 0.1em;
+}
+
+.cell-board:hover{
+}
+
+.active{
+}
+
+.cell-content{
+}

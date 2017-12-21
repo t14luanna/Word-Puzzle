@@ -1,0 +1,70 @@
+<html>
+  <head>
+    <title>Game</title>
+    <link rel="stylesheet" href="css/Home.css">
+    <link rel="stylesheet" href="css/Board.css">
+    <link rel="stylesheet" href="css/PlayBoard.css");
+  </head>
+  <body>
+
+    <!-- Info -->
+    <div class="info">
+      <!-- Play Info -->
+      <div class="playInfo">
+        <!-- Score -->
+        <div class="score">Score: <span>0</span></div>
+        <!-- Score -->
+
+        <!-- Count-down Timer -->
+        <div class="countdown-timer">
+          <span class="time">05:00</span>
+        </div>
+        <!-- End Count-down Timer -->
+
+        <div id="clearBtn" class="clearBtn">Clear</div>
+      </div>
+      <!-- End Play Info -->
+    </div>
+    <!-- End Info -->
+
+    <!-- Description -->
+    <div class="description">
+      <p>
+        You must find words hidden in a board. </br>
+        It may be one word or more. </br>
+        <hr>
+        How to play : </br>
+        - Click to characters in a board in sequence. </br>
+        - If you choice wrong character </br>
+        -> Click Clear Button to clear and choice again </br>
+        - When you choice all of characters, if your choice is concurrent with result, you won !! </br>
+        - If time over, you will lose. </br>
+        - Refresh page to play again !! </br>
+      </p>
+    </div>
+    <!-- End Description -->
+
+    <!-- Board -->
+    <div class="main"></div>
+    <!-- End Board -->
+
+    <!-- Result -->
+    <div class="result"></div>
+    <!-- End Result -->
+
+    <!-- Script -->
+    <script src="src/jquery-3.2.1.min.js"></script>
+
+    <!-- Home Script -->
+    <script src="js/Home.js"></script>
+
+    <!-- Board Script -->
+    <script src="js/Board.js"></script>
+
+    <!-- Play Board Script -->
+    <script src="js/PlayBoard.js"></script>
+
+    <!-- End Script -->
+
+  </body>
+</html>
